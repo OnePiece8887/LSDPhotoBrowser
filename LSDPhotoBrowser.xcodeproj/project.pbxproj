@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DC6278F922F9D87072ABFBF /* Pods_LSDPhotoBrowserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F2994EC9410324B52520B7 /* Pods_LSDPhotoBrowserTests.framework */; };
+		926BD2136F4EA852CB013B99 /* Pods_LSDPhotoBrowserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C2E17BE135959CA5126356 /* Pods_LSDPhotoBrowserUITests.framework */; };
+		9C7A6186C747018D84BAB719 /* Pods_LSDPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DAAFAF351869262EDC3269E /* Pods_LSDPhotoBrowser.framework */; };
+		EA022E6B1EB0494900B087A3 /* LSDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = EA022E621EB0494900B087A3 /* LSDPhotoBrowser.m */; };
+		EA022ED31EB06F8600B087A3 /* LSDPhotoBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA022ED21EB06F8600B087A3 /* LSDPhotoBrowserView.m */; };
+		EA022ED61EB070B900B087A3 /* LSDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA022ED51EB070B900B087A3 /* LSDWaitingView.m */; };
+		EA022ED81EB0A26F00B087A3 /* placeholderImage.png in Resources */ = {isa = PBXBuildFile; fileRef = EA022ED71EB0A26F00B087A3 /* placeholderImage.png */; };
+		EA022EDD1EB180FB00B087A3 /* LSDPhotoCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA022EDA1EB180FB00B087A3 /* LSDPhotoCollectionView.m */; };
+		EA022EDE1EB180FB00B087A3 /* LSDPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA022EDC1EB180FB00B087A3 /* LSDPhotoCollectionViewCell.m */; };
+		EA8AC0551EAF2CFA00AC04E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8AC0541EAF2CFA00AC04E7 /* main.m */; };
+		EA8AC0581EAF2CFA00AC04E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8AC0571EAF2CFA00AC04E7 /* AppDelegate.m */; };
+		EA8AC05B1EAF2CFB00AC04E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8AC05A1EAF2CFB00AC04E7 /* ViewController.m */; };
+		EA8AC05E1EAF2CFB00AC04E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8AC05C1EAF2CFB00AC04E7 /* Main.storyboard */; };
+		EA8AC0601EAF2CFB00AC04E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8AC05F1EAF2CFB00AC04E7 /* Assets.xcassets */; };
+		EA8AC0631EAF2CFB00AC04E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8AC0611EAF2CFB00AC04E7 /* LaunchScreen.storyboard */; };
+		EA8AC06E1EAF2CFB00AC04E7 /* LSDPhotoBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8AC06D1EAF2CFB00AC04E7 /* LSDPhotoBrowserTests.m */; };
+		EA8AC0791EAF2CFB00AC04E7 /* LSDPhotoBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8AC0781EAF2CFB00AC04E7 /* LSDPhotoBrowserUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA8AC06A1EAF2CFB00AC04E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8AC0481EAF2CFA00AC04E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8AC04F1EAF2CFA00AC04E7;
+			remoteInfo = LSDPhotoBrowser;
+		};
+		EA8AC0751EAF2CFB00AC04E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8AC0481EAF2CFA00AC04E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8AC04F1EAF2CFA00AC04E7;
+			remoteInfo = LSDPhotoBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30F2994EC9410324B52520B7 /* Pods_LSDPhotoBrowserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSDPhotoBrowserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B38F1BB8A0AF132851489B /* Pods-LSDPhotoBrowserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSDPhotoBrowserUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSDPhotoBrowserUITests/Pods-LSDPhotoBrowserUITests.release.xcconfig"; sourceTree = "<group>"; };
+		42F518BD5EABD81EE46C8894 /* Pods-LSDPhotoBrowserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSDPhotoBrowserUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSDPhotoBrowserUITests/Pods-LSDPhotoBrowserUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		67C2E17BE135959CA5126356 /* Pods_LSDPhotoBrowserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSDPhotoBrowserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAAFAF351869262EDC3269E /* Pods_LSDPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSDPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		772CF4114E5A3C45988A1BF4 /* Pods-LSDPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSDPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSDPhotoBrowser/Pods-LSDPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		A72F6133BD5F1601A8D6AC15 /* Pods-LSDPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSDPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSDPhotoBrowser/Pods-LSDPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		CED1561FD7134CA5C524FF2A /* Pods-LSDPhotoBrowserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSDPhotoBrowserTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSDPhotoBrowserTests/Pods-LSDPhotoBrowserTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE51E7D0372D4380361B5E4E /* Pods-LSDPhotoBrowserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSDPhotoBrowserTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSDPhotoBrowserTests/Pods-LSDPhotoBrowserTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA022E611EB0494900B087A3 /* LSDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDPhotoBrowser.h; sourceTree = "<group>"; };
+		EA022E621EB0494900B087A3 /* LSDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDPhotoBrowser.m; sourceTree = "<group>"; };
+		EA022ED01EB066FB00B087A3 /* LSDPhotoBrowserConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDPhotoBrowserConfigure.h; sourceTree = "<group>"; };
+		EA022ED11EB06F8600B087A3 /* LSDPhotoBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDPhotoBrowserView.h; sourceTree = "<group>"; };
+		EA022ED21EB06F8600B087A3 /* LSDPhotoBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDPhotoBrowserView.m; sourceTree = "<group>"; };
+		EA022ED41EB070B800B087A3 /* LSDWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDWaitingView.h; sourceTree = "<group>"; };
+		EA022ED51EB070B900B087A3 /* LSDWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDWaitingView.m; sourceTree = "<group>"; };
+		EA022ED71EB0A26F00B087A3 /* placeholderImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholderImage.png; sourceTree = "<group>"; };
+		EA022ED91EB180FB00B087A3 /* LSDPhotoCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDPhotoCollectionView.h; sourceTree = "<group>"; };
+		EA022EDA1EB180FB00B087A3 /* LSDPhotoCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDPhotoCollectionView.m; sourceTree = "<group>"; };
+		EA022EDB1EB180FB00B087A3 /* LSDPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		EA022EDC1EB180FB00B087A3 /* LSDPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		EA8AC0501EAF2CFA00AC04E7 /* LSDPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSDPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8AC0541EAF2CFA00AC04E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA8AC0561EAF2CFA00AC04E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA8AC0571EAF2CFA00AC04E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA8AC0591EAF2CFB00AC04E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA8AC05A1EAF2CFB00AC04E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA8AC05D1EAF2CFB00AC04E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA8AC05F1EAF2CFB00AC04E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA8AC0621EAF2CFB00AC04E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA8AC0641EAF2CFB00AC04E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8AC0691EAF2CFB00AC04E7 /* LSDPhotoBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSDPhotoBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8AC06D1EAF2CFB00AC04E7 /* LSDPhotoBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSDPhotoBrowserTests.m; sourceTree = "<group>"; };
+		EA8AC06F1EAF2CFB00AC04E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8AC0741EAF2CFB00AC04E7 /* LSDPhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSDPhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8AC0781EAF2CFB00AC04E7 /* LSDPhotoBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSDPhotoBrowserUITests.m; sourceTree = "<group>"; };
+		EA8AC07A1EAF2CFB00AC04E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8AC08F1EAF34DD00AC04E7 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA8AC04D1EAF2CFA00AC04E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7A6186C747018D84BAB719 /* Pods_LSDPhotoBrowser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8AC0661EAF2CFB00AC04E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC6278F922F9D87072ABFBF /* Pods_LSDPhotoBrowserTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8AC0711EAF2CFB00AC04E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926BD2136F4EA852CB013B99 /* Pods_LSDPhotoBrowserUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		465139B34297C77A972DB29C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DAAFAF351869262EDC3269E /* Pods_LSDPhotoBrowser.framework */,
+				30F2994EC9410324B52520B7 /* Pods_LSDPhotoBrowserTests.framework */,
+				67C2E17BE135959CA5126356 /* Pods_LSDPhotoBrowserUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C37565B9A61F2AFC645D7FBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				772CF4114E5A3C45988A1BF4 /* Pods-LSDPhotoBrowser.debug.xcconfig */,
+				A72F6133BD5F1601A8D6AC15 /* Pods-LSDPhotoBrowser.release.xcconfig */,
+				CED1561FD7134CA5C524FF2A /* Pods-LSDPhotoBrowserTests.debug.xcconfig */,
+				DE51E7D0372D4380361B5E4E /* Pods-LSDPhotoBrowserTests.release.xcconfig */,
+				42F518BD5EABD81EE46C8894 /* Pods-LSDPhotoBrowserUITests.debug.xcconfig */,
+				32B38F1BB8A0AF132851489B /* Pods-LSDPhotoBrowserUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA022E601EB0494900B087A3 /* LSDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				EA022ED71EB0A26F00B087A3 /* placeholderImage.png */,
+				EA022E611EB0494900B087A3 /* LSDPhotoBrowser.h */,
+				EA022E621EB0494900B087A3 /* LSDPhotoBrowser.m */,
+				EA022ED11EB06F8600B087A3 /* LSDPhotoBrowserView.h */,
+				EA022ED21EB06F8600B087A3 /* LSDPhotoBrowserView.m */,
+				EA022ED41EB070B800B087A3 /* LSDWaitingView.h */,
+				EA022ED51EB070B900B087A3 /* LSDWaitingView.m */,
+				EA022ED01EB066FB00B087A3 /* LSDPhotoBrowserConfigure.h */,
+			);
+			path = LSDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		EA8AC0471EAF2CFA00AC04E7 = {
+			isa = PBXGroup;
+			children = (
+				EA8AC0521EAF2CFA00AC04E7 /* LSDPhotoBrowser */,
+				EA8AC06C1EAF2CFB00AC04E7 /* LSDPhotoBrowserTests */,
+				EA8AC0771EAF2CFB00AC04E7 /* LSDPhotoBrowserUITests */,
+				EA8AC0511EAF2CFA00AC04E7 /* Products */,
+				C37565B9A61F2AFC645D7FBB /* Pods */,
+				465139B34297C77A972DB29C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA8AC0511EAF2CFA00AC04E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA8AC0501EAF2CFA00AC04E7 /* LSDPhotoBrowser.app */,
+				EA8AC0691EAF2CFB00AC04E7 /* LSDPhotoBrowserTests.xctest */,
+				EA8AC0741EAF2CFB00AC04E7 /* LSDPhotoBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA8AC0521EAF2CFA00AC04E7 /* LSDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				EA022E601EB0494900B087A3 /* LSDPhotoBrowser */,
+				EA8AC0561EAF2CFA00AC04E7 /* AppDelegate.h */,
+				EA8AC0571EAF2CFA00AC04E7 /* AppDelegate.m */,
+				EA8AC0591EAF2CFB00AC04E7 /* ViewController.h */,
+				EA8AC05A1EAF2CFB00AC04E7 /* ViewController.m */,
+				EA022ED91EB180FB00B087A3 /* LSDPhotoCollectionView.h */,
+				EA022EDA1EB180FB00B087A3 /* LSDPhotoCollectionView.m */,
+				EA022EDB1EB180FB00B087A3 /* LSDPhotoCollectionViewCell.h */,
+				EA022EDC1EB180FB00B087A3 /* LSDPhotoCollectionViewCell.m */,
+				EA8AC05C1EAF2CFB00AC04E7 /* Main.storyboard */,
+				EA8AC08F1EAF34DD00AC04E7 /* PrefixHeader.pch */,
+				EA8AC05F1EAF2CFB00AC04E7 /* Assets.xcassets */,
+				EA8AC0611EAF2CFB00AC04E7 /* LaunchScreen.storyboard */,
+				EA8AC0641EAF2CFB00AC04E7 /* Info.plist */,
+				EA8AC0531EAF2CFA00AC04E7 /* Supporting Files */,
+			);
+			path = LSDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		EA8AC0531EAF2CFA00AC04E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA8AC0541EAF2CFA00AC04E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA8AC06C1EAF2CFB00AC04E7 /* LSDPhotoBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA8AC06D1EAF2CFB00AC04E7 /* LSDPhotoBrowserTests.m */,
+				EA8AC06F1EAF2CFB00AC04E7 /* Info.plist */,
+			);
+			path = LSDPhotoBrowserTests;
+			sourceTree = "<group>";
+		};
+		EA8AC0771EAF2CFB00AC04E7 /* LSDPhotoBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA8AC0781EAF2CFB00AC04E7 /* LSDPhotoBrowserUITests.m */,
+				EA8AC07A1EAF2CFB00AC04E7 /* Info.plist */,
+			);
+			path = LSDPhotoBrowserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA8AC04F1EAF2CFA00AC04E7 /* LSDPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8AC07D1EAF2CFB00AC04E7 /* Build configuration list for PBXNativeTarget "LSDPhotoBrowser" */;
+			buildPhases = (
+				F2D525423D2D00925D0EED35 /* [CP] Check Pods Manifest.lock */,
+				EA8AC04C1EAF2CFA00AC04E7 /* Sources */,
+				EA8AC04D1EAF2CFA00AC04E7 /* Frameworks */,
+				EA8AC04E1EAF2CFA00AC04E7 /* Resources */,
+				77433C2E708DC68271ECE1A9 /* [CP] Embed Pods Frameworks */,
+				8608BEAECE592B6F6959E671 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSDPhotoBrowser;
+			productName = LSDPhotoBrowser;
+			productReference = EA8AC0501EAF2CFA00AC04E7 /* LSDPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA8AC0681EAF2CFB00AC04E7 /* LSDPhotoBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8AC0801EAF2CFB00AC04E7 /* Build configuration list for PBXNativeTarget "LSDPhotoBrowserTests" */;
+			buildPhases = (
+				87DE273E22E870CBA80B7920 /* [CP] Check Pods Manifest.lock */,
+				EA8AC0651EAF2CFB00AC04E7 /* Sources */,
+				EA8AC0661EAF2CFB00AC04E7 /* Frameworks */,
+				EA8AC0671EAF2CFB00AC04E7 /* Resources */,
+				256E51BB9F9E0C2977275A2A /* [CP] Embed Pods Frameworks */,
+				9620C306805C6392F38F6394 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA8AC06B1EAF2CFB00AC04E7 /* PBXTargetDependency */,
+			);
+			name = LSDPhotoBrowserTests;
+			productName = LSDPhotoBrowserTests;
+			productReference = EA8AC0691EAF2CFB00AC04E7 /* LSDPhotoBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA8AC0731EAF2CFB00AC04E7 /* LSDPhotoBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8AC0831EAF2CFB00AC04E7 /* Build configuration list for PBXNativeTarget "LSDPhotoBrowserUITests" */;
+			buildPhases = (
+				D0940ECEDC9DC25F38F7AA03 /* [CP] Check Pods Manifest.lock */,
+				EA8AC0701EAF2CFB00AC04E7 /* Sources */,
+				EA8AC0711EAF2CFB00AC04E7 /* Frameworks */,
+				EA8AC0721EAF2CFB00AC04E7 /* Resources */,
+				CC744C6AB5FE09B308C02F4E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA8AC0761EAF2CFB00AC04E7 /* PBXTargetDependency */,
+			);
+			name = LSDPhotoBrowserUITests;
+			productName = LSDPhotoBrowserUITests;
+			productReference = EA8AC0741EAF2CFB00AC04E7 /* LSDPhotoBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA8AC0481EAF2CFA00AC04E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = OnePiece;
+				TargetAttributes = {
+					EA8AC04F1EAF2CFA00AC04E7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 5TW33LD29W;
+						ProvisioningStyle = Manual;
+					};
+					EA8AC0681EAF2CFB00AC04E7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 5TW33LD29W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA8AC04F1EAF2CFA00AC04E7;
+					};
+					EA8AC0731EAF2CFB00AC04E7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 5TW33LD29W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA8AC04F1EAF2CFA00AC04E7;
+					};
+				};
+			};
+			buildConfigurationList = EA8AC04B1EAF2CFA00AC04E7 /* Build configuration list for PBXProject "LSDPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA8AC0471EAF2CFA00AC04E7;
+			productRefGroup = EA8AC0511EAF2CFA00AC04E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA8AC04F1EAF2CFA00AC04E7 /* LSDPhotoBrowser */,
+				EA8AC0681EAF2CFB00AC04E7 /* LSDPhotoBrowserTests */,
+				EA8AC0731EAF2CFB00AC04E7 /* LSDPhotoBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA8AC04E1EAF2CFA00AC04E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8AC0631EAF2CFB00AC04E7 /* LaunchScreen.storyboard in Resources */,
+				EA022ED81EB0A26F00B087A3 /* placeholderImage.png in Resources */,
+				EA8AC0601EAF2CFB00AC04E7 /* Assets.xcassets in Resources */,
+				EA8AC05E1EAF2CFB00AC04E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8AC0671EAF2CFB00AC04E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8AC0721EAF2CFB00AC04E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		256E51BB9F9E0C2977275A2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSDPhotoBrowserTests/Pods-LSDPhotoBrowserTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77433C2E708DC68271ECE1A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSDPhotoBrowser/Pods-LSDPhotoBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8608BEAECE592B6F6959E671 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSDPhotoBrowser/Pods-LSDPhotoBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87DE273E22E870CBA80B7920 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9620C306805C6392F38F6394 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSDPhotoBrowserTests/Pods-LSDPhotoBrowserTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC744C6AB5FE09B308C02F4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSDPhotoBrowserUITests/Pods-LSDPhotoBrowserUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0940ECEDC9DC25F38F7AA03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2D525423D2D00925D0EED35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA8AC04C1EAF2CFA00AC04E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8AC05B1EAF2CFB00AC04E7 /* ViewController.m in Sources */,
+				EA022EDD1EB180FB00B087A3 /* LSDPhotoCollectionView.m in Sources */,
+				EA8AC0581EAF2CFA00AC04E7 /* AppDelegate.m in Sources */,
+				EA8AC0551EAF2CFA00AC04E7 /* main.m in Sources */,
+				EA022ED31EB06F8600B087A3 /* LSDPhotoBrowserView.m in Sources */,
+				EA022EDE1EB180FB00B087A3 /* LSDPhotoCollectionViewCell.m in Sources */,
+				EA022E6B1EB0494900B087A3 /* LSDPhotoBrowser.m in Sources */,
+				EA022ED61EB070B900B087A3 /* LSDWaitingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8AC0651EAF2CFB00AC04E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8AC06E1EAF2CFB00AC04E7 /* LSDPhotoBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8AC0701EAF2CFB00AC04E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8AC0791EAF2CFB00AC04E7 /* LSDPhotoBrowserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA8AC06B1EAF2CFB00AC04E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA8AC04F1EAF2CFA00AC04E7 /* LSDPhotoBrowser */;
+			targetProxy = EA8AC06A1EAF2CFB00AC04E7 /* PBXContainerItemProxy */;
+		};
+		EA8AC0761EAF2CFB00AC04E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA8AC04F1EAF2CFA00AC04E7 /* LSDPhotoBrowser */;
+			targetProxy = EA8AC0751EAF2CFB00AC04E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA8AC05C1EAF2CFB00AC04E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8AC05D1EAF2CFB00AC04E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA8AC0611EAF2CFB00AC04E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8AC0621EAF2CFB00AC04E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA8AC07B1EAF2CFB00AC04E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhihong Huang (KY3LV96SWX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhihong Huang (KY3LV96SWX)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5TW33LD29W;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "1ef02e6a-b4f7-43da-8c50-db157159fe30";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA8AC07C1EAF2CFB00AC04E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhihong Huang (KY3LV96SWX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhihong Huang (KY3LV96SWX)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5TW33LD29W;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "1ef02e6a-b4f7-43da-8c50-db157159fe30";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA8AC07E1EAF2CFB00AC04E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 772CF4114E5A3C45988A1BF4 /* Pods-LSDPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhihong Huang (KY3LV96SWX)";
+				DEVELOPMENT_TEAM = 5TW33LD29W;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/LSDPhotoBrowser/PrefixHeader.pch";
+				INFOPLIST_FILE = LSDPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.szrd.jianyunbao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1ef02e6a-b4f7-43da-8c50-db157159fe30";
+				PROVISIONING_PROFILE_SPECIFIER = zuixin_baobao;
+			};
+			name = Debug;
+		};
+		EA8AC07F1EAF2CFB00AC04E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A72F6133BD5F1601A8D6AC15 /* Pods-LSDPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhihong Huang (KY3LV96SWX)";
+				DEVELOPMENT_TEAM = 5TW33LD29W;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/LSDPhotoBrowser/PrefixHeader.pch";
+				INFOPLIST_FILE = LSDPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.szrd.jianyunbao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1ef02e6a-b4f7-43da-8c50-db157159fe30";
+				PROVISIONING_PROFILE_SPECIFIER = zuixin_baobao;
+			};
+			name = Release;
+		};
+		EA8AC0811EAF2CFB00AC04E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CED1561FD7134CA5C524FF2A /* Pods-LSDPhotoBrowserTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSDPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnePiece.LSDPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSDPhotoBrowser.app/LSDPhotoBrowser";
+			};
+			name = Debug;
+		};
+		EA8AC0821EAF2CFB00AC04E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE51E7D0372D4380361B5E4E /* Pods-LSDPhotoBrowserTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSDPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnePiece.LSDPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSDPhotoBrowser.app/LSDPhotoBrowser";
+			};
+			name = Release;
+		};
+		EA8AC0841EAF2CFB00AC04E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42F518BD5EABD81EE46C8894 /* Pods-LSDPhotoBrowserUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = LSDPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnePiece.LSDPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSDPhotoBrowser;
+			};
+			name = Debug;
+		};
+		EA8AC0851EAF2CFB00AC04E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32B38F1BB8A0AF132851489B /* Pods-LSDPhotoBrowserUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = LSDPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnePiece.LSDPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSDPhotoBrowser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA8AC04B1EAF2CFA00AC04E7 /* Build configuration list for PBXProject "LSDPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8AC07B1EAF2CFB00AC04E7 /* Debug */,
+				EA8AC07C1EAF2CFB00AC04E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8AC07D1EAF2CFB00AC04E7 /* Build configuration list for PBXNativeTarget "LSDPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8AC07E1EAF2CFB00AC04E7 /* Debug */,
+				EA8AC07F1EAF2CFB00AC04E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8AC0801EAF2CFB00AC04E7 /* Build configuration list for PBXNativeTarget "LSDPhotoBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8AC0811EAF2CFB00AC04E7 /* Debug */,
+				EA8AC0821EAF2CFB00AC04E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8AC0831EAF2CFB00AC04E7 /* Build configuration list for PBXNativeTarget "LSDPhotoBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8AC0841EAF2CFB00AC04E7 /* Debug */,
+				EA8AC0851EAF2CFB00AC04E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA8AC0481EAF2CFA00AC04E7 /* Project object */;
+}
